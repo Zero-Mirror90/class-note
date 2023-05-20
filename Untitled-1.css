@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Zen+Kaku+Gothic+Antique&family=EB+Garamond&family=Zen+Old+Mincho&display=swap&display=swap');
+
+body{
+    margin: 0;
+    background-color: #fcf7ef;
+}
+.body{
+    margin: 0 12vw;
+    padding-bottom: 5vh;
+    background-color: #fffefd;
+}
+
+.index-contents{
+    font-size: 1.5vw;
+}
+.index-title{
+    font-size: 1.6vw;
+}
+
+.header-title{
+    margin: 0;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 3vw;
+    font-weight: 300;
+    background-color: #ff7712;
+    color: #f9fdee;
+    display: block;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #ffa311;
+}
+
+.index{
+    padding: 2vh 1vw 1vh;
+    display: inline-block;
+    margin: 10vh 5vw 5vh;
+    border: 5px solid #f46a02;
+    border-radius: 8px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.index-contents{
+    margin: 5px 15px;
+}
+
+.index-title{
+    margin: 10px;
+}
+
+.hyphen-ul{
+    list-style: "- ";
+}
+
+.body{
+    margin: 0 12vw;
+}
+
+.contents{
+    margin: 0 5vw;
+}
+
+.contents-title{
+    font-size: 2vw;
+    margin: 5vh 0 2vh;
+    padding: 6px 20px 9px;
+    border-left: 7px solid #f46a02;
+    background: #fffaf6;
+    font-family: 'Zen Old Mincho', serif;
+}
+
+.sub-contents-title{
+    margin: 4vh 2vw 4vh;
+    padding: 6px 15px 9px;
+    border-bottom: 4px solid #ffa311;
+    font-family: 'Zen Old Mincho', serif;
+    font-size: 1.75vw;
+}
+
+p{
+    font-size: 1.5vw;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif; 
+}
+
+.example{
+    border: 3.5px solid#ff7712;
+    border-radius: 8px;
+    background: #fffaf6;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.5vw;
+    padding-left: 3vw;
+    font-weight: 600;
+}
+
+ol li{
+    padding-left: 0.5vw;
+}
+
+.table{
+    text-align: center;
+    font-size: 1.2vw;
+}
+
+table{
+    display: inline-block;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th,td{
+    border-bottom: 2px solid #f1d028;
+    width: 10vw;
+}
+
+.tp{
+    border-right: 2px solid #f1d028;
+}
+
+tr.te th,tr.te td{
+    border-bottom: none;
+}
+
+strong{
+    color: #ffa311;
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width:960px) {   
+.body{
+    margin: 0 5vw;
+    padding-bottom: 5vw;
+}
+.index-contents{
+    font-size: 3.5vw;
+}
+.index-title{
+    font-size: 4vw;
+}
+.header-title{
+    font-size: 9vw;
+}
+.contents-title{
+    font-size: 6vw;
+}
+.sub-contents-title{
+    font-size: 5vw;
+}
+p{
+    font-size: 3.25vw;
+}
+.example{
+    font-size: 3.25vw;
+    padding: 0;
+}
+}
+
+.copy-right{
+    margin: 3vw 0;
+    text-align: center;
+}
+small{
+    font-size: 1.5vh;
+    font-family: 'Zen Old Mincho', serif;
+}
