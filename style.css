@@ -92,6 +92,7 @@ p{
     font-size: 1.5vw;
     padding-left: 3vw;
     font-weight: 600;
+    margin: 2vw 0;
 }
 
 ol li{
@@ -101,6 +102,7 @@ ol li{
 .table{
     text-align: center;
     font-size: 1.2vw;
+    margin: 2vw 0;
 }
 
 table{
@@ -157,7 +159,9 @@ p{
 }
 table{
     font-size: 3vw;
-    width: 80vw;
+}
+th,td{
+    width: 20vw;
 }
 }
 
