@@ -89,7 +89,7 @@ p{
     border-radius: 8px;
     background: #fffaf6;
     font-family: 'EB Garamond', serif;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     padding-left: 3vw;
     font-weight: 600;
     margin: 2vw 0;
@@ -126,7 +126,6 @@ tr.te th,tr.te td{
 
 strong{
     color: #ffa311;
-    font-weight: 600;
 }
 
 
