@@ -30,7 +30,7 @@ body{
 
 a{
     text-decoration: none;
-    color: #ffa311;
+    color: #005fbd;
 }
 
 .index{
@@ -79,9 +79,13 @@ a{
     font-size: 1.75vw;
 }
 
-p{
+p,li{
     font-size: 1.5vw;
     font-family: 'Zen Kaku Gothic Antique', sans-serif; 
+}
+
+ol li{
+    padding-left: 0.5vw;
 }
 
 .example{
@@ -95,13 +99,25 @@ p{
     margin: 2vw 0;
 }
 
-ol li{
-    padding-left: 0.5vw;
+.example-ans{
+    border: 3.5px solid#005fbd;
+    border-radius: 8px;
+    background: #f6faff;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.5vw;
+    padding-left: 3vw;
+    font-weight: 600;
+    margin: 2vw 0;
+}
+
+.example p,.example-ans p,.example li,.example-ans li{
+    font-family: 'EB Garamond', serif;
+    font-size: 1.8vw;
 }
 
 .table{
     text-align: center;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     margin: 2vw 0;
 }
 
@@ -109,25 +125,49 @@ table{
     display: inline-block;
     text-align: center;
     border-collapse: collapse;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif; 
 }
 
 th,td{
-    border-bottom: 2px solid #f1d028;
+    border-bottom: 2px solid #003161;
     width: 10vw;
 }
 
 .tp{
-    border-right: 2px solid #f1d028;
+    border-right: 2px solid #003161;
 }
 
 tr.te th,tr.te td{
     border-bottom: none;
 }
 
-strong{
-    color: #ffa311;
+.example strong,.example strong.cf{
+    font-weight: 600;
 }
 
+span{
+    color: #ff7712;
+}
+
+span.cf{
+    color: #005fbd;
+}
+
+span.cg{
+    color: #00a627
+}
+
+span.cmd{
+    color: #ff00bfce;
+}
+
+.example p,.example-ans p{
+    margin: 1vw 0;
+}
+
+.none-ul{
+    list-style: none;
+}
 
 @media only screen and (max-width:960px) {   
 .body{
@@ -147,20 +187,31 @@ strong{
     font-size: 6vw;
 }
 .sub-contents-title{
-    font-size: 5vw;
+    font-size: 4vw;
 }
-p{
+p,li{
     font-size: 3.25vw;
 }
 .example{
     font-size: 3.25vw;
-    padding: 0;
+    margin: 5vw 0;
+}
+.example-ans{
+    font-size: 3.25vw;
+    margin: 5vw 0;
+}
+.example p,.example-ans p,.example li,.example-ans li{
+    font-family: 'EB Garamond', serif;
+    font-size: 3.25vw;
 }
 table{
     font-size: 3vw;
 }
 th,td{
     width: 20vw;
+}
+.example p,.example-ans p{
+    margin: 2vw 0;
 }
 }
 
