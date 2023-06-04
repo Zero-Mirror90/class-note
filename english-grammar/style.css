@@ -85,7 +85,7 @@ a {
 
 p,
 li {
-    font-size: 1.65vw;
+    font-size: 1.75vw;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 
@@ -97,31 +97,36 @@ ol li {
     border: 3.5px solid#ff7712;
     border-radius: 8px;
     background: #fffaf6;
-    font-family: 'Noto Serif JP', serif;
-    font-size: 1.8vw;
-    padding-left: 3vw;
-    font-weight: 600;
+    padding: 0 2vw;
+    font-weight: 500;
     margin: 2vw 0;
 }
 
-.example-ans {
+.example-ans,
+.example-other {
     border: 3.5px solid#005fbd;
     border-radius: 8px;
     background: #f6faff;
-    font-family: 'Noto Serif JP', serif;
-    font-size: 1.5vw;
-    padding-left: 3vw;
-    font-weight: 600;
+    padding: 0 2vw;
+    font-weight: 500;
     margin: 2vw 0;
 }
 
-.example p,
-.example-ans p,
-.example li,
-.example-ans li {
-    font-family: 'Noto Serif JP', serif;
+.example p, .example li,
+.example-other p, .example-other li{
     font-size: 1.8vw;
 }
+
+.example-ans p, .example-ans li{
+    font-size: 1.6vw;
+}
+
+.example p,.example li,
+.example-ans p,.example-ans li,
+.example-other p,.example-other li{
+    font-family: 'Noto Serif JP', serif;
+}
+
 
 .table {
     text-align: center;
@@ -224,16 +229,18 @@ span.cmd {
     }
     
     .example,
-    .example-ans {
-        font-size: 3.25vw;
-        margin: 5vw 0;
+    .example-ans,
+    .example-other{
+        padding: 1vw;
     }
 
-    .example p,
-    .example-ans p,
-    .example li,
-    .example-ans li {
-        font-family: 'Noto Serif JP', serif;
+    .example p, .example li,
+    .example-other p, .example-other li{
+        font-size: 3.4vw;
+    }
+
+    .example-ans p, .example-ans li{
+        font-size: 3vw;
     }
 
     table {
