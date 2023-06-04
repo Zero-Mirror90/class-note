@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&family=Zen+Kaku+Gothic+Antique:wght@300;400;500;700;900&display=swap');
+
+body {
+    margin: 0;
+    background-color: #f7f4fc;
+}
+
+.body {
+    margin: 0 12vw;
+    padding-bottom: 5vh;
+    background-color: #fefdff;
+}
+
+.index-contents {
+    font-size: 1.5vw;
+}
+
+.index-title {
+    font-size: 1.6vw;
+}
+
+.header-title {
+    margin: 0;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 3vw;
+    font-weight: 300;
+    background-color: #07003a;
+    color: #f2f1ff;
+    display: block;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #05a;
+}
+
+.index {
+    padding: 2vh 1vw 1vh;
+    display: inline-block;
+    margin: 10vh 5vw 5vh;
+    border: 5px solid #f46a02;
+    border-radius: 8px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.index-contents {
+    margin: 5px 15px;
+}
+
+.index-title {
+    margin: 10px;
+}
+
+.hyphen-ul {
+    list-style: "- ";
+}
+
+.body {
+    margin: 0 12vw;
+}
+
+.contents {
+    margin: 0 5vw;
+}
+
+.contents-title {
+    font-size: 2vw;
+    margin: 5vh 0 2vh;
+    padding: 6px 20px 9px;
+    border-left: 7px solid #07003a;
+    background: #f6faff;
+    font-family: 'Noto Serif JP', serif;
+}
+
+.sub-contents-title {
+    margin: 4vh 2vw 4vh;
+    padding: 6px 15px 9px;
+    border-bottom: 4px solid #110093;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.75vw;
+}
+
+p,
+li {
+    font-size: 1.5vw;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+ol li {
+    padding-left: 0.5vw;
+}
+
+.example {
+    border: 3.5px solid#ff7712;
+    border-radius: 8px;
+    background: #fffaf6;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.8vw;
+    padding-left: 3vw;
+    font-weight: 600;
+    margin: 2vw 0;
+}
+
+.example-ans {
+    border: 3.5px solid#005fbd;
+    border-radius: 8px;
+    background: #f6faff;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.5vw;
+    padding-left: 3vw;
+    font-weight: 600;
+    margin: 2vw 0;
+}
+
+.example p,
+.example-ans p,
+.example li,
+.example-ans li {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.8vw;
+}
+
+.table {
+    text-align: center;
+    font-size: 1.5vw;
+    margin: 2vw 0;
+}
+
+table {
+    display: inline-block;
+    text-align: center;
+    border-collapse: collapse;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+th,
+td {
+    border-bottom: 2px solid #003161;
+    width: 10vw;
+}
+
+.wide{
+    width: 20vw;
+}
+
+.tp {
+    border-right: 2px solid #003161;
+}
+
+tr.te th,
+tr.te td {
+    border-bottom: none;
+}
+
+.example strong,
+.example strong.cf {
+    font-weight: 600;
+}
+
+span.co {
+    color: #ff7712;
+}
+
+span.cf {
+    color: #005fbd;
+}
+
+span.cg {
+    color: #00a627
+}
+
+span.cmd {
+    color: #ff00bfce;
+}
+
+.example p,
+.example-ans p {
+    margin: 1vw 0;
+}
+
+.none-ul {
+    list-style: none;
+}
+
+.none-weigh{
+    font-weight: 500;
+}
+
+.y-marker{
+    background:linear-gradient(transparent 75%, #ff6 80%);
+}
+
+.b-marker{
+    background:linear-gradient(transparent 75%, #6cf 80%);
+}
+
+@media only screen and (max-width:960px) {
+    .body {
+        margin: 0 5vw;
+        padding-bottom: 5vw;
+    }
+
+    .index-contents {
+        font-size: 3.5vw;
+    }
+
+    .index-title {
+        font-size: 4vw;
+    }
+
+    .header-title {
+        font-size: 9vw;
+    }
+
+    .contents-title {
+        font-size: 6vw;
+    }
+
+    .sub-contents-title {
+        font-size: 4vw;
+    }
+
+    p,
+    li {
+        font-size: 3.25vw;
+    }
+
+    .example {
+        font-size: 3.25vw;
+        margin: 5vw 0;
+    }
+
+    .example-ans {
+        font-size: 3.25vw;
+        margin: 5vw 0;
+    }
+
+    .example p,
+    .example-ans p,
+    .example li,
+    .example-ans li {
+        font-family: 'Noto Serif JP', serif;
+        font-size: 3.25vw;
+    }
+
+    table {
+        font-size: 3vw;
+    }
+
+    th,
+    td {
+        width: 20vw;
+    }
+
+    .wide{
+        width: 40vw;
+    }
+
+    .example p,
+    .example-ans p {
+        margin: 2vw 0;
+    }
+}
+
+.copy-right {
+    margin: 3vw 0;
+    text-align: center;
+}
+
+small {
+    font-size: 1.5vh;
+    font-family: 'Noto Serif JP', serif;
+}
