@@ -67,7 +67,7 @@ a {
 }
 
 h2 {
-    font-size: 4vw;
+    font-size: 2vw;
     margin: 5vh 0 2vh;
     padding: 6px 20px 9px;
     border-left: 7px solid #f46a02;
@@ -80,7 +80,7 @@ h3 {
     padding: 6px 15px 9px;
     border-bottom: 4px solid #ffa311;
     font-family: 'Noto Serif JP', serif;
-    font-size: 4vw;
+    font-size: 1.75vw;
 }
 
 p,
